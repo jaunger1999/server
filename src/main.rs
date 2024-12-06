@@ -15,7 +15,7 @@ fn main() {
     // Look at my new feature!!!!!!!
     //
     // It's just a comment. Sorry to disappoint.
-    // this is a comment.
+    // this is a comment to create a branch conflict.
     for stream in listener.incoming().take(2) {
         let stream = stream.unwrap();
 
