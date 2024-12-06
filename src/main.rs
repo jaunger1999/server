@@ -9,7 +9,7 @@ use std::{
 use server::ThreadPool;
 
 fn main() {
-    let listener = TcpListener::bind("199.34.102.178:7878").unwrap();
+    let listener = TcpListener::bind("192.168.100.104:7878").unwrap();
     let pool = ThreadPool::new(4);
 
     for stream in listener.incoming().take(2) {
